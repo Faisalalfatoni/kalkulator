@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calculator {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textView {
+  width: 268px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 2px 2px 10px inset black;
+}
+
+.equal {
+  height: 128px;
+}
+
+.equal:hover {
+  background-color: lightgreen;
+  color: white;
+}
+.zero {
+  width: 128px;
+}
